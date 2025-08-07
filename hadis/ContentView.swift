@@ -1,24 +1,32 @@
-//
-//  ContentView.swift
-//  hadis
-//
-//  Created by Ismail Özdemir on 22.05.24.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+let calendar = Calendar.current
+let currentDate = Date()
+let currentWeek = calendar.component(.weekOfYear, from: currentDate)
+
+struct MainView: View {
+    var globalString = GlobalString()
+    var jsonObject: allHadis
+    
+    init() {
+        jsonObject = GetJSON(raw: globalString.rawJSON)
+    }
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            weekView(hadis: jsonObject.data[currentWeek-1])
+                .tabItem() {
+                    Image(systemName: "calendar")
+                    Text("Woche")
+                }
+            allView(allHadis: jsonObject)
+                .tabItem() {
+                    Image(systemName: "list.bullet")
+                    Text("Alle Hadis")
+                }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }

@@ -11,6 +11,15 @@
 		5415DE5C2BFE66B700BA42F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5415DE5B2BFE66B700BA42F0 /* ContentView.swift */; };
 		5415DE5E2BFE66C100BA42F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5415DE5D2BFE66C100BA42F0 /* Assets.xcassets */; };
 		5415DE612BFE66C100BA42F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5415DE602BFE66C100BA42F0 /* Preview Assets.xcassets */; };
+		541F0B672C0333BE003D169C /* toolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541F0B662C0333BE003D169C /* toolView.swift */; };
+		541F0B692C033511003D169C /* hadisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541F0B682C033511003D169C /* hadisView.swift */; };
+		5460F01C2BFF32AF00717A97 /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5460F01B2BFF32AF00717A97 /* Read.swift */; };
+		549FA1F12C026E0E00FD2993 /* settingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FA1F02C026E0E00FD2993 /* settingsView.swift */; };
+		549FA1F32C02747300FD2993 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FA1F22C02747300FD2993 /* Info.swift */; };
+		54B998152BFFD95900BFC00F /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B998142BFFD95900BFC00F /* detailView.swift */; };
+		54B998172BFFD99700BFC00F /* allView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B998162BFFD99700BFC00F /* allView.swift */; };
+		54B998192BFFDF1600BFC00F /* weekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B998182BFFDF1600BFC00F /* weekView.swift */; };
+		54CFAF6C2BFF2DA300D3FDE5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CFAF6B2BFF2DA300D3FDE5 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		5415DE5B2BFE66B700BA42F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5415DE5D2BFE66C100BA42F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5415DE602BFE66C100BA42F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		541F0B662C0333BE003D169C /* toolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolView.swift; sourceTree = "<group>"; };
+		541F0B682C033511003D169C /* hadisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hadisView.swift; sourceTree = "<group>"; };
+		5460F01B2BFF32AF00717A97 /* Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
+		549FA1F02C026E0E00FD2993 /* settingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsView.swift; sourceTree = "<group>"; };
+		549FA1F22C02747300FD2993 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		54B998142BFFD95900BFC00F /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		54B998162BFFD99700BFC00F /* allView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allView.swift; sourceTree = "<group>"; };
+		54B998182BFFDF1600BFC00F /* weekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekView.swift; sourceTree = "<group>"; };
+		54CFAF6B2BFF2DA300D3FDE5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,7 @@
 		5415DE4D2BFE66B600BA42F0 = {
 			isa = PBXGroup;
 			children = (
+				541F0B682C033511003D169C /* hadisView.swift */,
 				5415DE582BFE66B700BA42F0 /* hadis */,
 				5415DE572BFE66B700BA42F0 /* Products */,
 			);
@@ -51,10 +70,18 @@
 		5415DE582BFE66B700BA42F0 /* hadis */ = {
 			isa = PBXGroup;
 			children = (
+				549FA1F22C02747300FD2993 /* Info.swift */,
 				5415DE592BFE66B700BA42F0 /* hadisApp.swift */,
 				5415DE5B2BFE66B700BA42F0 /* ContentView.swift */,
 				5415DE5D2BFE66C100BA42F0 /* Assets.xcassets */,
 				5415DE5F2BFE66C100BA42F0 /* Preview Content */,
+				54CFAF6B2BFF2DA300D3FDE5 /* Data.swift */,
+				5460F01B2BFF32AF00717A97 /* Read.swift */,
+				54B998142BFFD95900BFC00F /* detailView.swift */,
+				54B998162BFFD99700BFC00F /* allView.swift */,
+				54B998182BFFDF1600BFC00F /* weekView.swift */,
+				549FA1F02C026E0E00FD2993 /* settingsView.swift */,
+				541F0B662C0333BE003D169C /* toolView.swift */,
 			);
 			path = hadis;
 			sourceTree = "<group>";
@@ -104,11 +131,12 @@
 			};
 			buildConfigurationList = 5415DE512BFE66B600BA42F0 /* Build configuration list for PBXProject "hadis" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = de;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 5415DE4D2BFE66B600BA42F0;
 			productRefGroup = 5415DE572BFE66B700BA42F0 /* Products */;
@@ -138,7 +166,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5415DE5C2BFE66B700BA42F0 /* ContentView.swift in Sources */,
+				549FA1F12C026E0E00FD2993 /* settingsView.swift in Sources */,
+				541F0B672C0333BE003D169C /* toolView.swift in Sources */,
+				54CFAF6C2BFF2DA300D3FDE5 /* Data.swift in Sources */,
+				549FA1F32C02747300FD2993 /* Info.swift in Sources */,
+				54B998152BFFD95900BFC00F /* detailView.swift in Sources */,
+				541F0B692C033511003D169C /* hadisView.swift in Sources */,
 				5415DE5A2BFE66B700BA42F0 /* hadisApp.swift in Sources */,
+				54B998192BFFDF1600BFC00F /* weekView.swift in Sources */,
+				54B998172BFFD99700BFC00F /* allView.swift in Sources */,
+				5460F01C2BFF32AF00717A97 /* Read.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
